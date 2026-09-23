@@ -43,8 +43,16 @@ body {
 
 h1 {
         margin: 0;
-        align-self: center;
+        padding: 3%;
+        padding-bottom: 1%;
+        padding-top: 3%;
       }
+p {
+  margin: 0;
+  padding: 5%;
+  padding-bottom: 0%;
+  padding-top: 0%;
+}
  .header {
     display: flex;
     justify-content: center;
@@ -107,6 +115,55 @@ h1 {
 .menu-text {
     position: relative;
     z-index: 2;
+}
+
+.side-menu a {
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    text-align: center;
+    background: #90350b;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    position: relative;
+    justify-self: center;
+    z-index: 1;
+    border-radius: 6px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+.side-menu a::before {
+    display: block;
+    position: absolute;
+    left:0px;
+    height: 20px;
+    width: 100%;
+    background: #b44512;
+    content: " ";
+    z-index: 1;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+
+}
+
+.side-menu a:hover {
+    background: #00009c;
+    
+}
+
+.side-menu a:hover::before {
+    background: #1515ec;
+}
+
+.side-jumpto a {
+  text-indent: 15%;
+  color: aliceblue;
+  font-size: medium;
+  padding: 15px;
+  padding-top: 0%;
 }
 /*
 .container {
