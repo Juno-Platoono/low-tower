@@ -114,7 +114,8 @@ p {
 
 .menu-text {
     position: relative;
-    z-index: 2;
+    z-index: 2; 
+    padding-top: 0px;
 }
 
 .side-menu a {
@@ -159,11 +160,16 @@ p {
 }
 
 .side-jumpto a {
-  text-indent: 15%;
+  
   color: aliceblue;
-  font-size: medium;
-  padding: 15px;
-  padding-top: 0%;
+  font-size: x-large;
+  padding: 5%;
+  text-decoration: none;
+  
+
+}
+.side-jumpto img {
+  max-width: 5%;
 }
 /*
 .container {
@@ -209,14 +215,14 @@ p {
 .main-content {
   position: relative;
   width: 70%;
-  background:linear-gradient(#661fbd,#641eba);
+  background:linear-gradient(#661fbd,#44167d);
   color: white;
 }
 
 .big-main-content {
   position: relative;
   width: 75%;
-  background-color:#661fbd;
+  background:linear-gradient(#44167d,#6020af,#2b0757);
   color: white;
   border:#18903a 3px;
 }
@@ -230,7 +236,7 @@ p {
 
 .footer {
   position: relative;
-  background-color:#661fbd;
+  background:linear-gradient(#44167d,#2b0757 );
   text-align: center;
   color: white;
   font-size: 20px;
